@@ -1,0 +1,8 @@
+<templateSet group="libgdx">
+  <template name="gdxlog" value="companion object {&#10;        @JvmStatic&#10;        private val log = logger&lt;$CLASS_NAME$&gt;()&#10;    }" description="Logging companion object Template" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
